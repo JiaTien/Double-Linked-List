@@ -41,8 +41,10 @@ int main() {
     //修改
     //revise_node(&head, 3, 100);
 
-    output(head);
-    reverse_output(head);
+    //檢查結果
+    //output(head);
+    //reverse_output(head);
+    
     //釋放
     free_mm(head);
     return 0;
